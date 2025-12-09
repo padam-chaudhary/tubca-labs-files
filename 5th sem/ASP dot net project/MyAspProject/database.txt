@@ -1,0 +1,10 @@
+Create a table in mysql as:
+
++--------+--------------+------+-----+---------+----------------+
+| Field  | Type         | Null | Key | Default | Extra          |
++--------+--------------+------+-----+---------+----------------+
+| id     | int          | NO   | PRI | NULL    | auto_increment |
+| name   | varchar(100) | YES  |     | NULL    |                |
+| email  | varchar(100) | YES  |     | NULL    |                |
+| gender | varchar(10)  | YES  |     | NULL    |                |
++--------+--------------+------+-----+---------+----------------+

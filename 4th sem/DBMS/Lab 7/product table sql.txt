@@ -1,0 +1,33 @@
+1.create above table <assume necessary constant like primery key and not null
+CREATE TABLE product (
+    Pid INT PRIMARY KEY,  -- Product ID as Primary Key
+    P_name VARCHAR(50) NOT NULL,  -- Product Name (cannot be NULL)
+    Batch VARCHAR(20) NOT NULL,  -- Batch Number
+    Qty INT NOT NULL,  -- Quantity (cannot be NULL)
+    Price INT NOT NULL,  
+    Mfg_date DATE NOT NULL,  -- Manufacturing Date
+    Exp_date DATE NOT NULL   -- Expiry Date
+);
+
+2. Insert 5 Rows into the Table:
+INSERT INTO product (Pid, P_name, Batch, Qty, Price, Mfg_date, Exp_date)
+VALUES 
+(1000, 'Product A', 'B2025', 100, 15, '2077-10-10', '2080-10-10'),
+(1001, 'Product B', 'B2026', 200, 25, '2076-08-15', '2079-08-15'),
+(1002, 'Product C', 'B2027', 150, 20, '2078-05-20', '2081-05-20'),
+(1003, 'Product D', 'B2028', 300, 30, '2075-12-01', '2078-12-01'),
+(1004, 'Product E', 'B2029', 250, 10, '2079-07-10', '2082-07-10');
+
+3. Show Products Manufactured Before 2078-12-12:
+SELECT * FROM product 
+WHERE Mfg_date < '2078-12-12';
+
+4. View Products with Price Greater Than 20:
+SELECT * FROM product 
+WHERE Price > 20;
+
+5. View Product Names in Ascending Order:
+SELECT P_name FROM product 
+ORDER BY P_name ASC;
+
+

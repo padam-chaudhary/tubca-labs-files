@@ -1,0 +1,1 @@
+SELECT * FROM college_db.courses;

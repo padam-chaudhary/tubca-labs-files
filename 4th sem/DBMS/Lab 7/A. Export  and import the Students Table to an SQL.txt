@@ -1,0 +1,43 @@
+Export the Students Table to an SQL File
+1. Open MySQL Workbench
+ ->Launch MySQL Workbench and connect to your database.
+
+2. Go to Server > Data Export
+-> In the top menu, click on Server and then select Data Export.
+
+ 3.Select the Database and Table
+-> In the Data Export screen, select your database (e.g., college_db).
+->In the Tables to Export list, check the box next to the Students table.
+
+4.Set Export Options
+->Choose the option Export to Self-Contained File.
+->Set the file path and name (e.g., D:\DBMS\Lab 7\students_backup.sql).
+
+5. Start Export
+-> Click the Start Export button at the bottom.
+->MySQL Workbench will generate the SQL file and save it to the specified location.
+
+Import the Exported File into a New Table
+1. Create a New Table 
+-> If you want to import the data into a new table, first create the table with a different name (e.g., Students_backup):
+sql
+CREATE TABLE Students_backup (
+    std_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    dob DATE,
+    batch INT
+);
+
+2.Go to Server > Data Import
+->In the top menu, click on Server and then select Data Import.
+
+3.Select Import Options
+->Choose the Import from Self-Contained File option.
+-> Browse and select the students_backup.sql file you just exported.
+
+4.Choose the Target Database
+->In the Default Schema to be Imported To dropdown, select your database (e.g., college_db).
+
+5.Start Import
+->Click the Start Import button.
+->MySQL Workbench will execute the SQL script and populate the Students_backup table.

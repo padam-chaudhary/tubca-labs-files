@@ -1,0 +1,96 @@
+SQL Query
+lab 1:
+A)Create database:
+Create a new database named “college_db”.
+CREATE DATABASE college_db;
+
+B)Create a new table named “students” with following fields and appropriate data types:
+std_id
+name
+dob
+
+Here std_id should be auto incremented, and set as a primary key. name cannot have NULL values while dob can be blank.
+=>USE college_db;
+//college table:
+CREATE TABLE students(
+std_id int AUTO_INCREMENT,
+ name VARCHAR(100) NOT NULL,
+ dob DATE NULL,
+    PRIMARY KEY(std_id)
+);
+
+C)Add a new field named ‘batch’ at the last.
+=>USE college_db;
+//college table:
+CREATE TABLE students(
+std_id int AUTO_INCREMENT,
+ name VARCHAR(100) NOT NULL,
+ dob DATE NULL,
+  batch int,
+    PRIMARY KEY(std_id)
+);
+
+
+D)Create another test table with some random fields and practice removing columns and the whole table as well using the DROP command.
+
+
+//test table:
+USE college_db;
+
+CREATE TABLE test(
+testNo int AUTO_INCREMENT,
+ sub VARCHAR(100) NOT NULL,
+   score int NULL,
+    PRIMARY KEY(testNo)
+);
+
+=> DROP/delete column
+ALTER TABLE test
+DROP  COLUMN score;
+
+=> drop/delete table
+DROP TABLE test;
+
+
+Lab #2: Keys and data types
+A)Create a new table named Courses with the following fields:
+course_id
+name
+credit_hrs
+university
+=>USE college_db;
+
+CREATE TABLE Courses(
+course_id int  AUTO_INCREMENT,
+   name VARCHAR(100) NOT NULL,
+    credit_hrs int NOT NULL,
+    university VARCHAR(100),
+    PRIMARY KEY(course_id)
+);
+
+
+B)Add a new column in Students table named “course_id” and set it as a foreign key to course_id of Courses table.
+=>ALTER TABLE students
+ADD course_id int;
+ALTER TABLE students
+ADD FOREIGN KEY (course_id) REFERENCES courses(course_id);
+
+C)Add some relevant data to both tables. Add at least 5 courses and 10 students. More students added is better.
+
+students table::
+=>USE college_db;
+-- insert 10 values into students table
+INSERT INTO students(std_id,name,dob,batch) VALUES(NULL,"Sushant.k","2002-5-12",2079),
+(NULL,"Sushant.s","2004-4-6",2079),
+(NULL,"ram","2007-6-11",2079),
+(NULL,"suhesh","2004-4-6",2079),(NULL,"padam","2003-10-12",2079),(NULL,"Sumit.R","2004-6-25",2079),
+(NULL,"Niraj Tharu","2005-6-20",2079),(NULL,"Niruta Thapa","2004-3-25",2079),(NULL,"Namrata .G","2003-2-28",2079),
+(NULL,"Mahesh .K","2004-1-24",2079);
+
+-- inset 5 values  into course table
+INSERT INTO courses(course_id,name,credit_hrs,university) VALUES(NULL,"BCA",126,"Tribhuwan"),(NULL,"BBA",120,"Tribhuwan"),
+(NULL,"BBM",120,"Tribhuwan"),(NULL,"csit",126,"Tribhuwan"),(NULL,"BBS",120,"Tribhuwan");
+
+
+D)Display all data inserted in the ‘Students’ table.
+=>SELECT * FROM college_db.students;

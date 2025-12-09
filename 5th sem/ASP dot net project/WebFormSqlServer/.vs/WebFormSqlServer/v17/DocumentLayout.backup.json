@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP dot net project\\WebFormSqlServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|d:\\asp dot net project\\webformsqlserver\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|solutionrelative:signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|d:\\asp dot net project\\webformsqlserver\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|solutionrelative:signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|d:\\asp dot net project\\webformsqlserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|d:\\asp dot net project\\webformsqlserver\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3919882A-0D62-4425-8D62-8C21FA90042D}|WebFormSqlServer.csproj|solutionrelative:web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\ASP dot net project\\WebFormSqlServer\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\ASP dot net project\\WebFormSqlServer\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-24T02:10:09.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "D:\\ASP dot net project\\WebFormSqlServer\\Web.Debug.config",
+              "RelativeDocumentMoniker": "Web.Debug.config",
+              "ToolTip": "D:\\ASP dot net project\\WebFormSqlServer\\Web.Debug.config",
+              "RelativeToolTip": "Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-24T01:51:24.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.aspx.cs",
+              "DocumentMoniker": "D:\\ASP dot net project\\WebFormSqlServer\\SignUp.aspx.cs",
+              "RelativeDocumentMoniker": "SignUp.aspx.cs",
+              "ToolTip": "D:\\ASP dot net project\\WebFormSqlServer\\SignUp.aspx.cs",
+              "RelativeToolTip": "SignUp.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T01:46:04.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.aspx",
+              "DocumentMoniker": "D:\\ASP dot net project\\WebFormSqlServer\\SignUp.aspx",
+              "RelativeDocumentMoniker": "SignUp.aspx",
+              "ToolTip": "D:\\ASP dot net project\\WebFormSqlServer\\SignUp.aspx",
+              "RelativeToolTip": "SignUp.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-24T01:45:55.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
