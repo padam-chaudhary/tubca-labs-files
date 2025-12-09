@@ -2,8 +2,8 @@ package StringHadling;
 
 public class CompareStrings {
     public static void main(String[] args){
-        String str="sushant";
-        String str2="PADAM";
+        String str="parker";
+        String str2="peter";
         String strng=new String("sushant");
         System.out.println(str.toUpperCase());
         System.out.println(str2.toLowerCase());
